@@ -47,6 +47,27 @@ public class MainActivity extends AppCompatActivity {
                         frequencyDisplay.setText(display);
                         int midi = PitchConverter.hertzToMidiKey((double) Math.round(frequency));
                         double midiCent = PitchConverter.hertzToMidiCent(frequency);
+                        if (midi == 45) {
+                            noteDisplay.setImageResource(R.drawable.a);
+                            noteOctaveDisplay.setImageResource(R.drawable.three);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(45, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 46) {
+                            noteDisplay.setImageResource(R.drawable.a);
+                            noteOctaveDisplay.setImageResource(R.drawable.three);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(46, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 47) {
+                            noteDisplay.setImageResource(R.drawable.b);
+                            noteOctaveDisplay.setImageResource(R.drawable.three);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(47, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
                         if (midi == 48) {
                             noteDisplay.setImageResource(R.drawable.c);
                             noteOctaveDisplay.setImageResource(R.drawable.three);
