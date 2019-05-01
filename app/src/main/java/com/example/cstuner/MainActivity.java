@@ -96,6 +96,377 @@ public class MainActivity extends AppCompatActivity {
                             String distanceDisplay = distanceFromNote(51, midiCent) + " cents";
                             frequencyDistanceDisplay.setText(distanceDisplay);
                         }
+                        if (midi == 52) {
+                            noteDisplay.setImageResource(R.drawable.e);
+                            noteOctaveDisplay.setImageResource(R.drawable.three);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(52, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 53) {
+                            noteDisplay.setImageResource(R.drawable.f);
+                            noteOctaveDisplay.setImageResource(R.drawable.three);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(53, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 54) {
+                            noteDisplay.setImageResource(R.drawable.f);
+                            noteOctaveDisplay.setImageResource(R.drawable.three);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(54, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 55) {
+                            noteDisplay.setImageResource(R.drawable.g);
+                            noteOctaveDisplay.setImageResource(R.drawable.three);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(55, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 56) {
+                            noteDisplay.setImageResource(R.drawable.g);
+                            noteOctaveDisplay.setImageResource(R.drawable.three);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(56, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 57) {
+                            noteDisplay.setImageResource(R.drawable.a);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(57, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 58) {
+                            noteDisplay.setImageResource(R.drawable.a);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(58, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 59) {
+                            noteDisplay.setImageResource(R.drawable.b);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(59, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 60) {
+                            noteDisplay.setImageResource(R.drawable.c);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(60, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 61) {
+                            noteDisplay.setImageResource(R.drawable.c);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(61, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 62) {
+                            noteDisplay.setImageResource(R.drawable.d);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(62, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 63) {
+                            noteDisplay.setImageResource(R.drawable.d);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(63, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 64) {
+                            noteDisplay.setImageResource(R.drawable.e);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(64, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 65) {
+                            noteDisplay.setImageResource(R.drawable.f);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(65, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 66) {
+                            noteDisplay.setImageResource(R.drawable.f);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(66, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 67) {
+                            noteDisplay.setImageResource(R.drawable.g);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(67, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 68) {
+                            noteDisplay.setImageResource(R.drawable.g);
+                            noteOctaveDisplay.setImageResource(R.drawable.four);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(68, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 69) {
+                            noteDisplay.setImageResource(R.drawable.a);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(69, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 70) {
+                            noteDisplay.setImageResource(R.drawable.a);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(70, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 71) {
+                            noteDisplay.setImageResource(R.drawable.b);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(71, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 72) {
+                            noteDisplay.setImageResource(R.drawable.c);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(72, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 73) {
+                            noteDisplay.setImageResource(R.drawable.c);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(73, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 74) {
+                            noteDisplay.setImageResource(R.drawable.d);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(74, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 75) {
+                            noteDisplay.setImageResource(R.drawable.d);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(75, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 76) {
+                            noteDisplay.setImageResource(R.drawable.e);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(76, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 77) {
+                            noteDisplay.setImageResource(R.drawable.f);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(77, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 78) {
+                            noteDisplay.setImageResource(R.drawable.f);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(78, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 79) {
+                            noteDisplay.setImageResource(R.drawable.g);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(79, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 80) {
+                            noteDisplay.setImageResource(R.drawable.g);
+                            noteOctaveDisplay.setImageResource(R.drawable.five);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(80, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 81) {
+                            noteDisplay.setImageResource(R.drawable.a);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(81, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 82) {
+                            noteDisplay.setImageResource(R.drawable.a);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(82, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 83) {
+                            noteDisplay.setImageResource(R.drawable.b);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(83, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 84) {
+                            noteDisplay.setImageResource(R.drawable.c);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(84, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 85) {
+                            noteDisplay.setImageResource(R.drawable.c);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(85, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 86) {
+                            noteDisplay.setImageResource(R.drawable.d);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(86, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 87) {
+                            noteDisplay.setImageResource(R.drawable.d);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(87, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 88) {
+                            noteDisplay.setImageResource(R.drawable.e);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(88, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 89) {
+                            noteDisplay.setImageResource(R.drawable.f);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(89, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 90) {
+                            noteDisplay.setImageResource(R.drawable.f);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(90, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 91) {
+                            noteDisplay.setImageResource(R.drawable.g);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(91, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 92) {
+                            noteDisplay.setImageResource(R.drawable.g);
+                            noteOctaveDisplay.setImageResource(R.drawable.six);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(92, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 93) {
+                            noteDisplay.setImageResource(R.drawable.a);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(93, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 94) {
+                            noteDisplay.setImageResource(R.drawable.a);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(94, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 95) {
+                            noteDisplay.setImageResource(R.drawable.b);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(95, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 96) {
+                            noteDisplay.setImageResource(R.drawable.c);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(96, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 97) {
+                            noteDisplay.setImageResource(R.drawable.c);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(97, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 98) {
+                            noteDisplay.setImageResource(R.drawable.d);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(98, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 99) {
+                            noteDisplay.setImageResource(R.drawable.d);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(99, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 100) {
+                            noteDisplay.setImageResource(R.drawable.e);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(100, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 101) {
+                            noteDisplay.setImageResource(R.drawable.f);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(101, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 102) {
+                            noteDisplay.setImageResource(R.drawable.f);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(102, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 103) {
+                            noteDisplay.setImageResource(R.drawable.g);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.INVISIBLE);
+                            String distanceDisplay = distanceFromNote(103, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
+                        if (midi == 104) {
+                            noteDisplay.setImageResource(R.drawable.g);
+                            noteOctaveDisplay.setImageResource(R.drawable.seven);
+                            noteSharpDisplay.setVisibility(View.VISIBLE);
+                            String distanceDisplay = distanceFromNote(104, midiCent) + " cents";
+                            frequencyDistanceDisplay.setText(distanceDisplay);
+                        }
                     }
                 });
             }
