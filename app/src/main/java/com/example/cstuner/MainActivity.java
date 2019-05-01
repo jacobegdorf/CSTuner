@@ -26,7 +26,6 @@ import be.tarsos.dsp.util.PitchConverter;
 
 public class MainActivity extends AppCompatActivity {
     final int MY_PERMISSIONS_REQUEST_READ_CONTACTS = 100;
-    AudioDispatcher listener = AudioDispatcherFactory.fromDefaultMicrophone(44100, 8192, 2);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -471,10 +470,16 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         };
-        AudioProcessor pitchProcess = new PitchProcessor(PitchProcessor.PitchEstimationAlgorithm.FFT_YIN, 44100, 8192, pitch);
-        listener.addAudioProcessor(pitchProcess);
-        Thread audio = new Thread(listener, "Audio");
-        audio.start();
+        int audioPermission = ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO);
+        if (audioPermission != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.RECORD_AUDIO}, 1);
+        } else {
+            AudioDispatcher listener = AudioDispatcherFactory.fromDefaultMicrophone(44100, 8192, 2);
+            AudioProcessor pitchProcess = new PitchProcessor(PitchProcessor.PitchEstimationAlgorithm.FFT_YIN, 44100, 8192, pitch);
+            listener.addAudioProcessor(pitchProcess);
+            Thread audio = new Thread(listener, "Audio");
+            audio.start();
+        }
     }
     public double distanceFromNote(int midiNote, double cents) {
         double difference = cents - midiNote;
