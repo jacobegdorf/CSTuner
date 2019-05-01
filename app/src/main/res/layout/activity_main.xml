@@ -25,7 +25,7 @@
         android:id="@+id/frequency"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="440 Hz"
+        android:text="-- Hz"
         android:textColor="@color/colorAccent"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
