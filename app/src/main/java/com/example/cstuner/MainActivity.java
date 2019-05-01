@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         String display = frequency + " Hz";
+                        if (frequency == -1.0) {
+                            display = "No Pitch Detected";
+                        }
                         frequencyDisplay.setText(display);
                         int midi = PitchConverter.hertzToMidiKey((double) Math.round(frequency));
                         double midiCent = PitchConverter.hertzToMidiCent(frequency);
